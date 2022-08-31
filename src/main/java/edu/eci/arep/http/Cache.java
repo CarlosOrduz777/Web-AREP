@@ -24,7 +24,7 @@ public class Cache {
     }
 
     /**
-     * Put in cache the info of the Polygon API
+     * Put in cache the Info of the Polygon API
      * @param symbol
      * @param apiMethod
      */
