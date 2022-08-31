@@ -1,87 +1,39 @@
-# Project Title
+# Arquitectura Web Usando Mircoservicios
 
-One Paragraph of project description goes here
+A continuación se presenta una qarquitectura web en donde se utilizan diferentes microservicios como conexion a servicios externos, clientes JavaScript para unirlo a SparkWeb. Se debe construir una aplicación para consultar el mercado de valores de las acciones negociadas en Bolsa.  La aplicación recibirá el identificador de una acción, por ejemplo “MSFT” para Microsoft  y deberá mostrar el histórico de la valoración intra-día, diaria, semanal y mensual.
 
-## Getting Started
+## Comenzando
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Prerequisitos
 
-What things you need to install the software and how to install them
+Tener conocimientos en:
 
-```
-Give examples
-```
+* Maven
+* Java
+* JavaScript
+* HTML
+* Spark
 
-### Installing
 
-A step by step series of examples that tell you how to get a development env running
+### Usando La App
+* En primer lugar tenermos que digitar un simbolo de una compañia que se quiera usar, por ejemplo "MSFT" para microsoft.
+![image](https://user-images.githubusercontent.com/69254834/187591450-a11ff1a9-78fa-45c3-96ee-1f3d2217f4d9.png)
+* Seguido a esto escogemos qué API queremos utilizar si AlphaAdvantage o Polygon
 
-Say what the step will be
+![image](https://user-images.githubusercontent.com/69254834/187591738-738d5098-86d6-4b5e-96e1-77f3f6ca77a5.png)
 
-```
-Give the example
-```
+* En caso de ser AlphaAdvantage nos saldra las opciones para traer las acciones segun sean diaras, semanales o mensuales.
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Autores
 
-## Contributing
+* **Carlos Javier Orduz Trujillo** - *Trabajo Arquitectura Empresarial* - [CarlosOrduz777](https://github.com/CarlosOrduz777)
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
