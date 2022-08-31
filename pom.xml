@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>edu.escuelaing.arem.designprimer</groupId>
-    <artifactId>SparkWebApp</artifactId>
+    <groupId>edu.eci.arep.http</groupId>
+    <artifactId>tareaArep</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
     <properties>
@@ -79,7 +79,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>edu.escuelaing.arem.designprimer.SparkWebApp</mainClass>
+                    <mainClass>edu.eci.arep.http.tareaArep</mainClass>
                 </configuration>
             </plugin>
 
