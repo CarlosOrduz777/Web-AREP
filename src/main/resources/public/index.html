@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Enter Company Symbol</h1>
+<form action="/find" class="form">
+    <label for="name">Symbol:</label><br>
+    <input type="text" id="symbol" name="name"><br><br>
+    <div id="apis-buttons">
+        <input class="apis" type="button" value="AlphaAPI" onclick="loadRequest()">
+        <input class="apis" type="button" value="PolygonAPI" onclick="loadPolyonRequest()" >
+    </div>
+</form>
+<div id="date-buttons">
+    <input class="alphaButton" type="button" value="Intra Day" onclick="loadRequestWithDate('intra')">
+    <input class="alphaButton" type="button" value="Daily" onclick="loadRequestWithDate('daily')">
+    <input class="alphaButton" type="button" value="Weekly" onclick="loadRequestWithDate('weekly')">
+    <input class="alphaButton" type="button" value="Monthly" onclick="loadRequestWithDate('monthly')">
+</div>
+
+<div id="getrespmsg"></div>
+
+<script type="text/javascript" src="AppConnection.js" ></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+</body>
+</html>
