@@ -29,7 +29,7 @@ Tener conocimientos en:
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+[https://radiant-lowlands-41145.herokuapp.com/]
 
 
 ## Autores
